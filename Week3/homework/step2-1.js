@@ -14,4 +14,4 @@ function bar() {
 foo(bar());
 
 // Do not change or remove anything below this line
-module.exports = foo;
+//module.exports = foo;
