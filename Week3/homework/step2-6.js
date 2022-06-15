@@ -8,8 +8,8 @@ function flattenArray2d(arr) {
 }
 
 function flattenArray3d(arr) {
-  // Replace this comment and the next line with your code
   console.log(arr.flat(2));
+  //flat(depth) <--- how many layers
 }
 
 console.log(flattenArray2d(arr2d)); // -> [1, 2, 3, 4, 5, 6]

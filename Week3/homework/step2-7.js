@@ -20,4 +20,12 @@ f2(y);
 
 console.log(y);
 
-// Add your explanation as a comment here
+/* 
+1. In the first function, the value of x was not affected because it was declared outside
+of the function scope and if it's just console log it, it will come out as the same value,
+despite being previously passed as an argument for the f1() function.
+
+2. In the second function, y is an object. By calling val.x, we are modifying the x property 
+of the y object (not the whole object), and therefore when we console log y, the result is
+{x: 10} and not {x:9}
+*/
