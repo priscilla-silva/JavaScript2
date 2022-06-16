@@ -4,11 +4,12 @@ const arr2d = [[1, 2], [3, 4], [5, 6]];
 const arr3d = [[[1, 2], [3, 4]], [[5, 6], [7, 8]]];
 
 function flattenArray2d(arr) {
-  console.log(arr.flat());
+  return arr.flat();
 }
 
 function flattenArray3d(arr) {
-  console.log(arr.flat(2));
+  
+  return arr.flat(2);
   //flat(depth) <--- how many layers
 }
 
